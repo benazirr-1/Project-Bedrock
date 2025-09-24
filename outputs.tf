@@ -18,3 +18,7 @@ output "rds_mysql_endpoint" {
   value       = aws_db_instance.mysql_db.endpoint
 }
 
+output "node_role_arn" {
+  description = "The ARN of the IAM role for the EKS worker nodes."
+  value       = aws_iam_role.eks_node_group_role.arn
+}   

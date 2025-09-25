@@ -2,6 +2,10 @@
 
 This repository contains the Terraform code to deploy the  Retail Store Sample App (https://github.com/aws-containers/retail-store-sample-app) to a production-grade Kubernetes environment on AWS, as part of the "Project Bedrock" assignment.
 
+**CLUSTER-IP**:  172.20.197.167    
+**EXTERNAL-IP**: af9cae7fb96e14af283b683419aec380-1693226852.us-east-1.elb.amazonaws.com
+
+
 ## Architecture Overview
 
 The infrastructure consists of the following key components provisioned by Terraform:

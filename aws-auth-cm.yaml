@@ -14,4 +14,4 @@ data:
     - userarn: arn:aws:iam::864624564263:user/developer-readonly
       username: developer-readonly
       groups:
-        - system:viewers
+        - view
